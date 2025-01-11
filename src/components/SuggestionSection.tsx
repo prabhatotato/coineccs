@@ -25,10 +25,7 @@ function SuggestionSection() {
     axios
       .get("https://api.coingecko.com/api/v3/search/trending")
       .then((response) => {
-        response.data.coins.forEach((item)=>{
-          // console.log(item.item.coin_id);
-          
-        })
+      
         setCryptoData(response.data.coins);
       })
       .catch((error) => {
