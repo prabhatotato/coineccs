@@ -5,6 +5,7 @@ import Performance from "../components/Performance"
 import Sentiment from "../components/Sentiment"
 import About from "../components/About"
 import Tokenomics from "../components/Tokenomics"
+import Team from "../components/Team"
 
 function CoinPage() {
   return (
@@ -18,6 +19,7 @@ function CoinPage() {
             <Sentiment/>
             <About/>
             <Tokenomics/>
+            <Team/>
              
         </div>
         
