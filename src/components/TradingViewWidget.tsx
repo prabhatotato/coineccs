@@ -16,7 +16,7 @@ function TradingViewWidget() {
       "symbol": "CRYPTO:BTCUSD",
       "timezone": "Etc/UTC",
       "theme": "light",
-      "style": "2",
+      "style": "3",
       "locale": "en",
       "enable_publishing": false,
       "hide_top_toolbar": true,
