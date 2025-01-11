@@ -8,6 +8,7 @@ import Tokenomics from "../components/Tokenomics"
 import Team from "../components/Team"
 import CradsPromo from "../components/CardsPromo"
 import TrendingCoins from "../components/TrendingCoins"
+import SuggestionSection from "../components/SuggestionSection"
 
 function CoinPage() {
   return (
@@ -30,10 +31,9 @@ function CoinPage() {
         </div>
 
         
-        
       </div>
         
-
+      <SuggestionSection/>
       
         
     </div>
