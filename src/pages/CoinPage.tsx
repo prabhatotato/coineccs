@@ -6,6 +6,7 @@ import Sentiment from "../components/Sentiment"
 import About from "../components/About"
 import Tokenomics from "../components/Tokenomics"
 import Team from "../components/Team"
+import CradsPromo from "../components/CardsPromo"
 
 function CoinPage() {
   return (
@@ -19,9 +20,13 @@ function CoinPage() {
             <Sentiment/>
             <About/>
             <Tokenomics/>
-            <Team/>
-             
+            <Team/>     
         </div>
+
+        <div className="lg:w-4/12 lg:mr-14 mx-4">
+          <CradsPromo/>
+        </div>
+
         
         
       </div>
