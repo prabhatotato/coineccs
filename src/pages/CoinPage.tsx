@@ -4,6 +4,7 @@ import Toggle from "../components/Toggle"
 import Performance from "../components/Performance"
 import Sentiment from "../components/Sentiment"
 import About from "../components/About"
+import Tokenomics from "../components/Tokenomics"
 
 function CoinPage() {
   return (
@@ -16,6 +17,7 @@ function CoinPage() {
             <Performance/>
             <Sentiment/>
             <About/>
+            <Tokenomics/>
              
         </div>
         
