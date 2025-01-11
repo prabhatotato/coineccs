@@ -3,6 +3,8 @@ import CryptoChart from "../components/CryptoChart"
 import Toggle from "../components/Toggle"
 import Performance from "../components/Performance"
 import Sentiment from "../components/Sentiment"
+import About from "../components/About"
+
 function CoinPage() {
   return (
     <div className="h-full w-screen bg-slate-200/40">
@@ -13,6 +15,7 @@ function CoinPage() {
             <Toggle/>
             <Performance/>
             <Sentiment/>
+            <About/>
              
         </div>
         
